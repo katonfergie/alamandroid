@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:tag="layout/row_list_home_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" app:cardCornerRadius="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:tag="binding_1" android:background="@color/colorGrey" android:clickable="true" android:layout_width="fill_parent" android:layout_height="202.0dip">
+        <ImageView android:id="@id/imageView3" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/nature" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" />
+            <com.joanzapata.iconify.widget.IconTextView android:textDirection="12.0sp" android:textColor="@color/colorRate" android:gravity="center_vertical" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+            <TextView android:textSize="11.0sp" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" />
+            <TextView android:textSize="12.0sp" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

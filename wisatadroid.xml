@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="id.ton.wisatadroid" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="id.ton.wisatadroid.wisataapp" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name="id.ton.wisatadroid.mvvm.register.RegisterActivity"/>
+        <activity android:name="id.ton.wisatadroid.mvvm.login.LoginActivity" android:windowSoftInputMode="stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="id.ton.wisataroid.mvvm.home_wisata.HomeActivity"/>
+        <activity android:name="id.ton.wisatadroid.mvvm.post_wisata.PostAcitivity"/>
+        <activity android:name="id.ton.wisatadroid.mvvm.detail_wisata.DetailAcitivity"/>
+    </application>
+</manifest>

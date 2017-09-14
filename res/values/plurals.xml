@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fuzzydatetime__days_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="fuzzydatetime__hours_ago">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="fuzzydatetime__minutes_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="fuzzydatetime__months_ago">
+        <item quantity="other">%d months ago</item>
+        <item quantity="one">%d month ago</item>
+    </plurals>
+    <plurals name="fuzzydatetime__seconds_ago">
+        <item quantity="other">%d seconds ago</item>
+        <item quantity="zero">just now</item>
+        <item quantity="one">%d second ago</item>
+    </plurals>
+    <plurals name="fuzzydatetime__weeks_ago">
+        <item quantity="other">%d weeks ago</item>
+        <item quantity="one">%d week ago</item>
+    </plurals>
+    <plurals name="fuzzydatetime__years_ago">
+        <item quantity="other">%d years ago</item>
+        <item quantity="one">%d year ago</item>
+    </plurals>
+    <plurals name="plural_hour">
+        <item quantity="other">hours</item>
+        <item quantity="one">hour</item>
+    </plurals>
+    <plurals name="plural_minute">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="plural_second">
+        <item quantity="other">seconds</item>
+        <item quantity="one">second</item>
+    </plurals>
+</resources>
